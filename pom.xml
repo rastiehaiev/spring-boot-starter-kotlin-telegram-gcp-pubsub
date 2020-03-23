@@ -6,7 +6,7 @@
 
     <groupId>com.sbrati</groupId>
     <artifactId>spring-boot-starter-kotlin-telegram-gcp-pubsub</artifactId>
-    <version>0.0.8</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -23,13 +23,13 @@
         <dependency>
             <groupId>com.sbrati</groupId>
             <artifactId>spring-boot-starter-kotlin-telegram</artifactId>
-            <version>0.0.7</version>
+            <version>1.0.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.sbrati</groupId>
             <artifactId>spring-boot-starter-gcp-pubsub</artifactId>
-            <version>0.0.1</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
@@ -80,6 +80,14 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>internal.sbraticom.repository</id>
+            <name>Internal Repository</name>
+            <url>https://maven.jetbrains.space/sbrati/sbratico-maven</url>
+        </repository>
+    </repositories>
 
     <distributionManagement>
         <repository>
