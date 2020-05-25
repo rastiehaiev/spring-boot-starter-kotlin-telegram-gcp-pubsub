@@ -5,7 +5,7 @@ import com.sbrati.spring.boot.starter.kotlin.telegram.manager.TelegramManager
 import com.sbrati.telegram.domain.Event
 import org.springframework.beans.factory.annotation.Autowired
 
-open class GcpPubSubTelegramSubscriber<T>(type: Class<T>, subscriptionKey: String) : GcpPubSubSubscriber<T>(type, subscriptionKey) {
+open class GcpPubSubTelegramSubscriber<T>(type: Class<T>, topicName: String) : GcpPubSubSubscriber<T>(type, topicName) {
 
     @Autowired
     private lateinit var telegramManager: TelegramManager
