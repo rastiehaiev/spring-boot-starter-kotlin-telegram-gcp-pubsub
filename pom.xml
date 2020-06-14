@@ -6,7 +6,7 @@
 
     <groupId>com.sbrati</groupId>
     <artifactId>spring-boot-starter-kotlin-telegram-gcp-pubsub</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -23,13 +23,13 @@
         <dependency>
             <groupId>com.sbrati</groupId>
             <artifactId>spring-boot-starter-kotlin-telegram</artifactId>
-            <version>2.0.43</version>
+            <version>2.0.47</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.sbrati</groupId>
             <artifactId>spring-boot-starter-gcp-pubsub</artifactId>
-            <version>1.0.23</version>
+            <version>1.0.24</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
